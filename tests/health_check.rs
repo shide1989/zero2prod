@@ -1,6 +1,3 @@
-use actix_service::Service;
-use actix_web::{http::StatusCode, test, web, App};
-use zero2prod::health_check;
 fn spawn_app() -> String {
     let listener = std::net::TcpListener::bind("127.0.0.1:0").expect("Failed to bind random port");
     // get the port number

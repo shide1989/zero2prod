@@ -11,16 +11,11 @@ while creating a newsletter subscription service.
 - [Docker](https://docs.docker.com/get-docker/)
 - Some brain cells.
 
-## Running
-
-#### Database
-
-```bash
-docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
-```
-
-#### Server
-
+### Running
 `cargo run`
+
+### Testing
+
+`cargo test`
 
 License [MIT](./LICENSE)
